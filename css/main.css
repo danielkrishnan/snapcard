@@ -16,7 +16,10 @@ body {
 }
 
 #logo {
-		margin: 10px auto 0 auto; position: relative; width: 183px; height: 0px;
+		display: block;
+		float: none;
+		width: 100%;
+		text-align: center;
 }
 
 ul#nav-links {
@@ -42,6 +45,14 @@ ul#nav-links li:nth-child(3) {
 #page-title {
 				margin: 70px auto 0 600px;
 }
+
+h1#FAQ-heading {
+				display: block;
+				float: none;
+				width: 100%;
+				text-align: center;
+				margin: 0 auto;
+				}
 
 .panel-default .panel-heading {
 				border: none;
